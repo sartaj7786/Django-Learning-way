@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    {% block title %}about{% endblock title %}
+  </head>
+  {% block body %}
+  <body>
+    <div class="container-fluid px-0 text-center" >
+        <img src="/static/img/l4.webp " class="d-block w-100 mx-0" alt="..." height="500px" >
+    </div>
+	{% comment %} <script src="index.js"></script> {% endcomment %}
+    <div class="container text-center">
+    <p><h1>About The Course</h1> </p>
+    <div class="container-fluid px-0 text-center" >
+        <img src="/static/img/l10.jpg" class="d-block w-100 mx-0" alt="..." height="500px" >
+    </div>
+    </div>
+
+
+  </body>
+</html>
+
+
+
+
+{% endblock body %}
+
