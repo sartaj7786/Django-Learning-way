@@ -33,4 +33,6 @@ def contact(request):
         contact.save()
         messages.success(request, 'Your Message has been sent!')
     return render(request, 'contact.html')
-    # return HttpResponse("This is contact Page")      
+    # return HttpResponse("This is contact Page")   
+def course(request):
+    return render(request, 'course.html')
